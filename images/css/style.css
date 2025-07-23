@@ -1,0 +1,84 @@
+/* Reset some default styles */
+body {
+    background-color: #151a21;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #337bc3 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: rgb(220, 40, 40) !important;
+    font-weight: 500;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #f4c10f !important;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #f4c10f;
+    color: #000;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #ffdd00;
+    color: black;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
